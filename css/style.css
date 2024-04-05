@@ -6,25 +6,32 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.315); 
 }
 .logos {
     display: flex;
     width: 60%;
-    max-width: 450px;
+    max-width: 400px;
     max-height: 80px;
-    margin: 2px;      
+    margin: 2px;
+    align-items: center;      
+}
+.iconsd {
+    width: 100%;
+}
+.iconsi {
+    width: 100%;
 }
 .logos-d {
     max-height: 80px;
     display: flex;
     width: auto;
     margin: 2px;
+    max-width: 200px;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../img/mi.png');
-    /* background-image: linear-gradient(to top,  #9628f5, #aa4bff, #c27dff,#d9afff); */
-    /* background-repeat: no-repeat; */
+    background-image: url('../img/mi.png') ;
     height: 100vh;
     margin: 0;
 }
