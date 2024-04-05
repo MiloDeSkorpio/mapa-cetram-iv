@@ -1,0 +1,71 @@
+header {
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos {
+    display: flex;
+    max-width: 60%;
+    max-height: 80px;
+    margin: 2px;      
+}
+.logos-d {
+    max-height: 80px;
+    display: flex;
+    width: auto;
+    margin: 2px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/mi.png');
+    /* background-image: linear-gradient(to top,  #9628f5, #aa4bff, #c27dff,#d9afff); */
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.selects{
+    background-color: #7b2a3d;
+    border-radius: 5px;
+}
+.sel-cont{
+    margin: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 700;
+}
+  
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Add border-radius property */
+    box-sizing: border-box; /* Ensure padding and border are included */
+}
+
+.mapa {
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+img {
+    max-width: 100%;
+   
+}
+/* .iconsd {
+    width: 50%;
+}
+.iconsi {
+    width: 50%;    
+} */

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indios Verdes</title>
+    <link rel="icon" href="img/log_CDMX.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/origins.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logos">
+            <div class="iconsd">
+                <img src="img/Logo_CDMX.png" alt="">
+            </div>
+            <div class="iconsi">
+                <img src="img/Logo_Dependencia.png" alt="">
+            </div>
+        </div>
+        <div class="logos-d">
+            <div class="iconsd">
+                <img src="img/mi-ort.png" alt="">
+            </div>
+            <div class="iconsi">
+                <img src="img/mi-cetram.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section  class="container">
+        <div class="selects">
+            <div class="sel-cont">
+                <label for="select1">Origen:</label>
+                <select id="select1" onchange="updateSelect2()">
+                  <option value="">Selecionar...</option>
+                </select>
+            </div>
+            <div class="sel-cont"> 
+                <label for="select2">Destino:</label>
+                <select id="select2">
+                  <option value="">Seleccionar...</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <section  class="container">
+        <div class="indications">
+            <img src="" alt="" class="indica">
+        </div>
+    </section>
+    <section  class="container">
+        <div class="mapa">
+            <img id="imagen" src="img/map-clean.png" alt="">
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
