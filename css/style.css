@@ -32,11 +32,20 @@ body {
     margin: 5px;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
 }
-.selects{
+.selects,.indications{
     background-color: #7b2a3d;
     border-radius: 5px;
+    width: 98%;
+    max-width: 1400px;
+    margin: 5px; 
+    padding: 5px;
+}
+.indications{
+    color: #fff;
+    
 }
 .sel-cont{
     margin: 5px;
@@ -57,7 +66,7 @@ select {
 }
 
 .mapa {
-    width: 100%;
+width: 100%;
    display: flex;
    justify-content: center;
 }
@@ -65,9 +74,12 @@ img {
     max-width: 100%;
    
 }
-/* .iconsd {
-    width: 50%;
-}
-.iconsi {
-    width: 50%;    
-} */
+
+@media (min-width: 420px) {
+    .selects {
+      display: flex;
+    }
+    .sel-cont{
+        width: 50%;
+    }
+  }
