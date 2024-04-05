@@ -75,13 +75,13 @@ select {
 }
 
 .mapa {
-width: 100%;
-   display: flex;
-   justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
 }
 img {
-    max-width: 100%;
-   
+    width: 100%;
 }
 
 @media (min-width: 420px) {
