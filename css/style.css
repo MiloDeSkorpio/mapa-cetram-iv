@@ -5,10 +5,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 .logos {
     display: flex;
-    max-width: 60%;
+    width: 60%;
+    max-width: 450px;
     max-height: 80px;
     margin: 2px;      
 }
