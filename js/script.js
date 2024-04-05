@@ -97,23 +97,24 @@ function updateSelect2() {
   function updateImage() {
       const select1 = document.getElementById('select1');
       const select2 = document.getElementById('select2');
+      const imagenInd = document.getElementById('imagen-ind');
       const imagen = document.getElementById('imagen');
       
       const selectedOrigin = select1.options[select1.selectedIndex].value;
       const selectedDestination = select2.options[select2.selectedIndex].value;
-      console.log(selectedOrigin)
-      console.log(selectedDestination)
+
       if (selectedOrigin === '' || selectedDestination === '') {
           return; // Handle empty selections
         }
         
         const newImagePath = `img/${selectedOrigin}-${selectedDestination}.png`;
+        const newImagePathInd = `img/${selectedOrigin}-${selectedDestination}-IND.png`;
         
         if (newImagePath) {
             imagen.src = newImagePath;
-        } else {
-            // Handle cases where no image found for the combination (e.g., default image)
-        }
+            imagenInd.src = newImagePathInd;
+        } 
+   
     }
     select1.addEventListener('change', updateImage);
     select2.addEventListener('change', updateImage);

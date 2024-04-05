@@ -45,7 +45,9 @@ body {
 }
 .indications{
     color: #fff;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .sel-cont{
     margin: 5px;
