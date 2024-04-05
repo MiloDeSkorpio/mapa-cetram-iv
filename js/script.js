@@ -33,21 +33,22 @@ function updateSelect2() {
       case 'ECB':
         select2.add(new Option('Metrobus Linea 7', 'ML7'));
         select2.add(new Option('Metrobus Linea 1', 'ML1'));
+        select2.add(new Option('Metro Indios Verdes', 'MIV'));
         select2.add(new Option('Mexibus Lado Sur', 'MLS'));
         select2.add(new Option('Mexibus Lado Norte', 'MLN'));
-        select2.add(new Option('Metro Indios Verdes', 'MIV'));
-        select2.add(new Option('Rutas Lado Poniente', 'RLP'));
         select2.add(new Option('Mexicable', 'MXC'));
+        select2.add(new Option('Rutas Lado Poniente', 'RLP'));
         select2.add(new Option('Rutas Lado Oriente', 'RLO'));
         break;
       case 'MXD':
         select2.add(new Option('Metrobus Linea 7', 'ML7'));
-        select2.add(new Option('Metrobus Linea 1', 'ML1'));
-        select2.add(new Option('Metro Indios Verdes', 'MIV'));
         select2.add(new Option('Cablebus', 'CLB'));
+        select2.add(new Option('Metro Indios Verdes', 'MIV'));
+        select2.add(new Option('Mexibus Norte', 'MXN'));
+        select2.add(new Option('Metrobus Linea 1', 'ML1'));
         select2.add(new Option('Rutas Lado Poniente', 'RLP'));
-        select2.add(new Option('Mexicable', 'MXC'));
         select2.add(new Option('Rutas Lado Oriente', 'RLO'));
+        select2.add(new Option('Mexicable', 'MXC'));
         break;
       case 'MXA':
         select2.add(new Option('Metrobus Linea 7', 'ML7'));
@@ -75,9 +76,9 @@ function updateSelect2() {
         select2.add(new Option('Cablebus', 'CLB'));
         select2.add(new Option('Rutas Lado Poniente', 'RLP'));
         select2.add(new Option('Rutas Lado Oriente', 'RLO'));
-        select2.add(new Option('Mexicable', 'MXB'));
-        select2.add(new Option('Mexibus Sur', 'MXB'));
-        select2.add(new Option('Mexibus Norte', 'MXB'));
+        select2.add(new Option('Mexicable', 'MXC'));
+        select2.add(new Option('Mexibus Sur', 'MXS'));
+        select2.add(new Option('Mexibus Norte', 'MXN'));
         break;
       case 'MXC':
         select2.add(new Option('Metrobus Linea 1', 'ML1'));
@@ -85,9 +86,8 @@ function updateSelect2() {
         select2.add(new Option('Metro Indios Verdes', 'MIV'));
         select2.add(new Option('Cablebus', 'CLB'));
         select2.add(new Option('Rutas Lado Poniente', 'RLP'));
-        select2.add(new Option('Rutas Lado Oriente', 'RLO'));
-        select2.add(new Option('Mexibus Sur', 'MXB'));
-        select2.add(new Option('Mexibus Norte', 'MXB'));
+        select2.add(new Option('Mexibus Sur', 'MXS'));
+        select2.add(new Option('Mexibus Norte', 'MXN'));
         break;
     }
     selectedOption1
