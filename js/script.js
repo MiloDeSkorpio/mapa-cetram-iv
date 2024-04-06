@@ -86,6 +86,7 @@ function updateSelect2() {
         select2.add(new Option('Metro Indios Verdes', 'MIV'));
         select2.add(new Option('Cablebus', 'CLB'));
         select2.add(new Option('Rutas Lado Poniente', 'RLP'));
+        select2.add(new Option('Rutas Lado Oriente', 'RLO'));
         select2.add(new Option('Mexibus Sur', 'MXS'));
         select2.add(new Option('Mexibus Norte', 'MXN'));
         break;
